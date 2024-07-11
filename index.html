@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriDonation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .hero-section {
+            background: url('bgs/bg3.jpg') no-repeat center center;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 150px 0 100px; /* Increase top padding */
+            background-position: center 30%; /* Move background image lower */
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand" href="#">
+            <img src="logos/logo4.jpg" alt="AgriDonation Logo" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Donate</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">How It Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Login/Register</a></li>
+                <li class="nav-item">
+                    <select class="form-control">
+                        <option>English</option>
+                        <option>Spanish</option>
+                        <!-- Add more languages as needed -->
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <h1>AgriDonation's Mission</h1>
+        <p>Supporting farmers and communities through your generous donations.</p>
+        <a href="#" class="btn btn-primary btn-lg">Donate Now</a>
+        <a href="register.html" class="btn btn-secondary btn-lg">Register</a>
+        <a href="#" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="container my-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>About AgriDonation</h2>
+            <p>AgriDonation is dedicated to supporting farmers and communities in need through generous donations and community support.</p>
+        </div>
+        <div class="col-lg-6">
+            <h2>Our Impact</h2>
+            <ul>
+                <li>Number of farmers supported: 500+</li>
+                <li>Total donations received: $1,000,000+</li>
+                <!-- Add more metrics as needed -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">How It Works</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>1. Register</h3>
+                <p>Create an account to get started.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>2. Donate</h3>
+                <p>Choose a cause and make a donation.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>3. Support</h3>
+                <p>Your donation helps farmers and communities.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Stories/Testimonials Section -->
+<section class="container my-5">
+    <h2 class="text-center">Success Stories</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Story 1</h3>
+            <p>A farmer's life transformed through AgriDonation.</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Story 2</h3>
+            <p>How community support made a difference.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h2>Make a Difference Today</h2>
+        <p>Your support can change lives. Register or donate now!</p>
+        <a href="register.html" class="btn btn-light btn-lg">Register</a>
+        <a href="#" class="btn btn-secondary btn-lg">Donate Now</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                    <li><a href="#" class="text-white">Terms of Service</a></li>
+                    <li><a href="#" class="text-white">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: info@agridonation.org</p>
+                <p>Phone: +1234567890</p>
+                <p>Follow us on social media:</p>
+                <!-- Add social media links/icons as needed -->
+            </div>
+            <div class="col-md-4">
+                <h5>Newsletter Signup</h5>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
